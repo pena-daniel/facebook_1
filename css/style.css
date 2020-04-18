@@ -1,0 +1,157 @@
+/* formatage */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #e9ebee;
+    height: 800px;
+    box-sizing: content-box;
+    font-family: Helvetica, sans-serif;
+   
+}
+/* header */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #3b5998;
+    position: relative;
+    
+}
+.header span{
+    width: 350px;
+}
+.header  .text{ 
+   margin-left: 15%;
+   margin-top: 40px;
+   display: inline-flex;
+   box-sizing: content-box;
+}
+.bouton{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+.header .text  h1{
+    font-size: 35px;
+    width: 155px;
+    color: white;
+}
+
+.bouton{
+    width:105px ;
+    height: 30px;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: content-box;
+    font-size: 12px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+.bouton:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+/* partie centrale */
+.center{
+    position: absolute;
+    top: 27%;
+    left: 28%;
+    height: 275px;
+    width: 614px;
+    background: white;
+    text-align: center;
+    display: inline-block;
+}
+.center h5{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(31, 29, 29, 0.877);
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+#mail,#password{
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+    box-sizing: content-box;
+    display: block;
+    border: solid 1px #dddfe2 ;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+input[type=text],input[type=password]{
+    padding-left: 15px;
+}
+#button{
+    width: 320px;
+    height: 50px;
+    border-radius: 2px;
+    border-color: #3b5998;
+    background: #3b5998;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: .95;
+}
+#button:hover{
+    opacity: 1;
+}
+#titre_fin a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #3b5998;
+}
+#titre_fin a:hover{
+    text-decoration: underline;
+}
+/* pied de page */
+.footer{
+    width: 100%;
+    height: 260px;
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    top: 540px;
+    background-attachment: fixed;
+}
+.footer span{
+    display: block;
+    margin-left: 14%;
+    
+}
+.div_1{
+    width:75%;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 12%;
+
+}
+.div_2{
+    width: 75%;
+    height: 60px;
+    padding-top: 5px;
+    border-top: solid 1px #737373;
+}
+.lien{
+    margin: 3px;
+    text-decoration: none;
+}
+.lien:hover{
+    text-decoration: underline;
+}
+.div_3 p{
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #737373;
+
+}
