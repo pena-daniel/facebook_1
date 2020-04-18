@@ -5,7 +5,7 @@
 }
 .container{
     background-color: #e9ebee;
-    height: 800px;
+    height: 860px;
     box-sizing: content-box;
     font-family: Helvetica, sans-serif;
    
@@ -22,14 +22,14 @@
     width: 350px;
 }
 .header  .text{ 
-   margin-left: 15%;
+   margin-left: 13%;
    margin-top: 40px;
    display: inline-flex;
    box-sizing: content-box;
 }
 .bouton{
     margin-top: 6px;
-    margin-left: 10px;
+    margin-left: 3px;
 }
 
 
@@ -62,7 +62,7 @@
     position: absolute;
     top: 27%;
     left: 28%;
-    height: 275px;
+    height: 340px;
     width: 614px;
     background: white;
     text-align: center;
@@ -113,6 +113,17 @@ input[type=text],input[type=password]{
 #titre_fin a:hover{
     text-decoration: underline;
 }
+fieldset{
+    border: none; 
+    border-top: solid 0.5px; 
+    margin-left: 150px;
+    width: 317px;
+}
+legend{
+    padding: 10px;
+    opacity: 0.8;
+    font-size: 12px;
+}
 /* pied de page */
 .footer{
     width: 100%;
@@ -120,7 +131,7 @@ input[type=text],input[type=password]{
     box-sizing: border-box;
     background-color: white;
     position: absolute;
-    top: 540px;
+    top: 600px;
     background-attachment: fixed;
 }
 .footer span{
